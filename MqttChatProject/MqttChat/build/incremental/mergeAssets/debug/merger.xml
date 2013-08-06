@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\programming\projects\tutorials\MqttChatAndroid\MqttChatProject\MqttChat\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\programming\projects\tutorials\MqttChatAndroid\MqttChatProject\MqttChat\src\debug\assets" />
+    </dataSet>
+
+</merger>

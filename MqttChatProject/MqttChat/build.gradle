@@ -1,0 +1,54 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets{
+  testLocal{
+       java.srcDir  file('src/test/java')
+       resources.srcDir file('src/test/resources')
+  }
+}
+
+
+dependencies {
+    compile 'com.squareup.dagger:dagger:1.0.1'
+    compile 'com.squareup:otto:1.3.4'
+    compile 'com.android.support:support-v4:13.0.+'
+    compile 'org.fusesource.mqtt-client:mqtt-client:1.5'
+    compile 'javax.websocket:javax.websocket-api:1.0'
+}
+/*
+task localTest(type:Test, dependsOn: assemble) {
+
+    testClassesDir = sourceSets.testLocal.output.classesDir
+    android.sourceSets.main.java.srcDirs.each { dir ->
+        def buildDir = dir.getAbsolutePath().split('/')
+        buildDir =  ([buildDir[0]] + ['build', 'classes', 'debug']).join('/')
+        print buildDir
+        sourceSets.testLocal.compileClasspath += files(buildDir)
+        sourceSets.testLocal.runtimeClasspath += files(buildDir)
+    }
+    classpath = sourceSets.testLocal.runtimeClasspath
+}
+
+check.dependsOn localTest
+*/
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 16
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="C:\programming\projects\tutorials\MqttChatAndroid\MqttChatProject" />
+        <option name="gradleHome" value="C:\Program Files (x86)\gradle-1.6" />
+        <option name="preferLocalInstallationToWrapper" value="true" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

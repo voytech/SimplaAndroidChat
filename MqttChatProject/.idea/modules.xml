@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MqttChat/MqttChat.iml" filepath="$PROJECT_DIR$/MqttChat/MqttChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MqttChatProject.iml" filepath="$PROJECT_DIR$/MqttChatProject.iml" />
+    </modules>
+  </component>
+</project>
+
