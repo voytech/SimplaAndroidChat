@@ -1,0 +1,79 @@
+[1mdiff --git a/MqttChatProject/.idea/workspace.xml b/MqttChatProject/.idea/workspace.xml[m
+[1mindex 1f3d1d3..dd088be 100644[m
+[1m--- a/MqttChatProject/.idea/workspace.xml[m
+[1m+++ b/MqttChatProject/.idea/workspace.xml[m
+[36m@@ -107,7 +107,7 @@[m
+       <file leaf-file-name="ChatDiModule.java" pinned="false" current="true" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state line="47" column="3" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.7325175" vertical-offset="108" max-vertical-offset="697">[m
+[32m+[m[32m            <state line="40" column="5" selection-start="896" selection-end="896" vertical-scroll-proportion="0.6136364" vertical-offset="57" max-vertical-offset="697">[m
+               <folding />[m
+             </state>[m
+           </provider>[m
+[36m@@ -122,6 +122,15 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[32m+[m[32m      <file leaf-file-name="MqttTransport.java" pinned="false" current="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/MqttTransport.java">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state line="203" column="5" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0" vertical-offset="2331" max-vertical-offset="2890">[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+     </leaf>[m
+   </component>[m
+   <component name="FindManager">[m
+[36m@@ -782,7 +791,7 @@[m
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6707819" order="1" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5857339" order="3" side_tool="false" content_ui="tabs" />[m
+[31m-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.8203018" order="0" side_tool="false" content_ui="combo" />[m
+[32m+[m[32m      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.8203018" order="0" side_tool="false" content_ui="combo" />[m
+       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35116598" sideWeight="0.5933076" order="2" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.66941017" order="3" side_tool="false" content_ui="tabs" />[m
+[36m@@ -945,23 +954,23 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/MqttTransport.java">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/WebSocketTransport.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state line="35" column="13" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">[m
+[32m+[m[32m        <state line="27" column="21" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">[m
+           <folding />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/WebSocketTransport.java">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/MqttTransport.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state line="27" column="21" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">[m
+[32m+[m[32m        <state line="203" column="5" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0" vertical-offset="2331" max-vertical-offset="2890">[m
+           <folding />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+     <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state line="47" column="3" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.7325175" vertical-offset="108" max-vertical-offset="697">[m
+[32m+[m[32m        <state line="40" column="5" selection-start="896" selection-end="896" vertical-scroll-proportion="0.6136364" vertical-offset="57" max-vertical-offset="697">[m
+           <folding />[m
+         </state>[m
+       </provider>[m
+[1mdiff --git a/MqttChatProject/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java b/MqttChatProject/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java[m
+[1mindex e538554..5a03a01 100644[m
+[1m--- a/MqttChatProject/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java[m
+[1m+++ b/MqttChatProject/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java[m
+[36m@@ -46,6 +46,6 @@[m [mpublic class ChatDiModule {[m
+ [m
+     @Provides public Transport transport(Handler handler,Bus bus)[m
+     {[m
+[31m-        return new WebSocketTransport(bus, handler);[m
+[32m+[m[32m        return new MqttTransport(bus, handler);[m
+     }[m
+ }[m
