@@ -46,6 +46,6 @@ public class ChatDiModule {
 
     @Provides public Transport transport(Handler handler,Bus bus)
     {
-        return new WebSocketTransport(bus, handler);
+        return new MqttTransport(bus, handler);
     }
 }

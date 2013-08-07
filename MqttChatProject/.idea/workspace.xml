@@ -122,6 +122,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MqttTransport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/MqttTransport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="203" column="5" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0" vertical-offset="2331" max-vertical-offset="2890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -945,16 +954,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/MqttTransport.java">
+    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/WebSocketTransport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+        <state line="27" column="21" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/WebSocketTransport.java">
+    <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/MqttTransport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="21" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+        <state line="203" column="5" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0" vertical-offset="2331" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
