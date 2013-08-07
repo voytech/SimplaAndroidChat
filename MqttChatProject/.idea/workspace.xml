@@ -107,7 +107,7 @@
       <file leaf-file-name="ChatDiModule.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="770" selection-end="770" vertical-scroll-proportion="0.2902098" vertical-offset="123" max-vertical-offset="697">
+            <state line="39" column="22" selection-start="887" selection-end="887" vertical-scroll-proportion="0.46853146" vertical-offset="123" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -961,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MqttChat/src/main/java/pl/wm/android/poc/di_modules/ChatDiModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="770" selection-end="770" vertical-scroll-proportion="0.2902098" vertical-offset="123" max-vertical-offset="697">
+        <state line="39" column="22" selection-start="887" selection-end="887" vertical-scroll-proportion="0.46853146" vertical-offset="123" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
