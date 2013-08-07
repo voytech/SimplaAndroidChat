@@ -32,24 +32,20 @@ public class ChatDiModule {
 
     @Provides @Singleton public ChatSettings chatSettings()
     {
-        Log.i("Chat", "Injecting Settings ");
         return new ChatSettings();
     }
 
     @Provides @Singleton public Bus ottoBus()
     {
-        Log.i("Chat", "Injecting bus");
         return new Bus();
     }
     @Provides @Singleton public Handler sharedHandler()
     {
-        Log.i("Chat", "Injecting shared Handler");
         return new Handler();
     }
 
     @Provides public Transport transport(Handler handler,Bus bus)
     {
-        Log.i("Chat", "Injecting transport "+bus.toString());
         return new WebSocketTransport(bus, handler);
     }
 }
